@@ -1,0 +1,139 @@
+.contact-section {
+    padding-bottom: 10rem;
+}
+
+.contact-grid {
+    grid-template-columns: 1fr 1.2fr;
+    gap: 6rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-desc {
+    font-size: 1.15rem;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 4rem;
+}
+
+.contact-links {
+    gap: 2rem;
+}
+
+.contact-item {
+    gap: 1.5rem;
+    text-decoration: none;
+}
+
+.contact-icon-wrapper {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    transition: all var(--transition-medium);
+}
+
+.contact-item:hover .contact-icon-wrapper {
+    background-color: var(--text-primary);
+    color: var(--bg-color);
+    border-color: var(--text-primary);
+    transform: translateY(-2px);
+}
+
+.contact-label {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.contact-value {
+    display: block;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    font-weight: 400;
+    transition: color var(--transition-fast);
+}
+
+/* Form Styles - Apple inspired smooth borders */
+.contact-form-container {
+    padding: 3.5rem;
+    border-radius: 16px;
+    background-color: var(--bg-color-light);
+    border: 1px solid var(--border-color);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 1rem 1.25rem;
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    color: var(--text-primary);
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    transition: all var(--transition-fast);
+}
+
+.form-input::placeholder {
+    color: var(--text-muted);
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: var(--text-primary);
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.form-textarea {
+    resize: vertical;
+    min-height: 160px;
+}
+
+.submit-btn {
+    padding: 1rem;
+    font-size: 1rem;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.submit-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.form-success {
+    color: #10B981;
+    text-align: center;
+    margin-top: 1.5rem;
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 992px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .contact-form-container {
+        padding: 2.5rem 1.5rem;
+    }
+}

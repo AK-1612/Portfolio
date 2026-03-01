@@ -1,0 +1,89 @@
+.projects-section {
+    position: relative;
+}
+
+.projects-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.5rem;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5rem;
+    border-radius: 16px;
+    /* slightly softer radius like Apple */
+    height: 100%;
+    transition: all var(--transition-medium);
+    position: relative;
+    background-color: var(--bg-color-light);
+    /* subtly lighter than completely black background */
+    border: 1px solid var(--border-color);
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    border-color: var(--border-color-hover);
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+.project-header {
+    margin-bottom: 2rem;
+}
+
+.project-folder svg {
+    stroke: var(--text-primary);
+    width: 28px;
+    height: 28px;
+    opacity: 0.8;
+}
+
+.project-links a {
+    color: var(--text-secondary);
+    padding: 0.5rem;
+    display: block;
+    transition: color var(--transition-fast);
+}
+
+.project-links a:hover {
+    color: var(--text-primary);
+}
+
+.project-title {
+    font-size: 1.35rem;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    color: var(--text-primary);
+    letter-spacing: -0.01em;
+}
+
+.project-desc {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 2.5rem;
+    font-weight: 300;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: auto;
+}
+
+.project-tech span {
+    padding: 0.25rem 0.5rem;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+}

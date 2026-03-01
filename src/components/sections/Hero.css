@@ -1,0 +1,256 @@
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 6rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-container {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 5rem;
+    width: 100%;
+}
+
+.hero-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.35rem 1.25rem;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    border-radius: 9999px;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+    width: max-content;
+    transition: border-color var(--transition-fast);
+}
+
+
+
+.hero-badge:hover {
+    border-color: var(--border-color-hover);
+}
+
+.hero-title {
+    font-size: clamp(3rem, 6vw, 4.5rem);
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    margin-bottom: 1.5rem;
+    line-height: 1.05;
+    color: var(--text-primary);
+}
+
+.hero-title-accent {
+    color: var(--text-secondary);
+    font-weight: 400;
+}
+
+.hero-headline {
+    font-size: 1.25rem;
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+    max-width: 540px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+}
+
+.hero-subheadline {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    margin-bottom: 3rem;
+    max-width: 540px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.hero-actions {
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.lg-btn {
+    padding: 0.75rem 1.75rem;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+.icon-btn {
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Visual Side - Hero Image High-End Container */
+.hero-visual {
+    position: relative;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image-container {
+    position: relative;
+    width: 100%;
+    max-width: 420px;
+    height: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: var(--bg-color-light);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.hero-main-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 2;
+    filter: grayscale(15%) contrast(105%);
+    transition: filter var(--transition-medium);
+}
+
+.hero-main-img:hover {
+    filter: grayscale(0%) contrast(100%);
+}
+
+.hero-image-container.no-image {
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--bg-color-light) 0%, rgba(56, 189, 248, 0.05) 100%);
+}
+
+.hero-image-container.no-image::after {
+    content: '[ Place /profile.jpg in public/ folder ]';
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-family: var(--font-mono);
+    text-align: center;
+    padding: 2rem;
+    z-index: 3;
+}
+
+.neural-net-anim.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+.node {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background-color: var(--text-primary);
+    border-radius: 50%;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.4);
+    animation: pulse 4s infinite alternate ease-in-out;
+}
+
+.n1 {
+    top: 30%;
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.n2 {
+    top: 70%;
+    left: 20%;
+    animation-delay: 0.5s;
+}
+
+.n3 {
+    top: 20%;
+    left: 50%;
+    animation-delay: 1s;
+}
+
+.n4 {
+    top: 50%;
+    left: 50%;
+    animation-delay: 1.5s;
+}
+
+.n5 {
+    top: 80%;
+    left: 50%;
+    animation-delay: 2s;
+}
+
+.n6 {
+    top: 30%;
+    left: 80%;
+    animation-delay: 2.5s;
+}
+
+.connections {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.connections line {
+    stroke: rgba(255, 255, 255, 0.1);
+    stroke-width: 1;
+}
+
+.glow-orb {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.03) 0%, transparent 70%);
+    border-radius: 50%;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.3;
+    }
+
+    100% {
+        transform: scale(1.5);
+        opacity: 0.8;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-container {
+        grid-template-columns: 1fr;
+        text-align: left;
+        gap: 2rem;
+    }
+
+    .hero-visual {
+        height: 300px;
+        margin-top: 2rem;
+    }
+}
