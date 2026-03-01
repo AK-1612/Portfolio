@@ -2,8 +2,6 @@
 
 A premium, high-performance personal portfolio built with React and Vite. Designed with a focus on visual excellence, smooth interactions, and engineering depth.
 
-![Portfolio Showcase](https://raw.githubusercontent.com/lucide-react/lucide/main/icons/layout.svg) <!-- Placeholder for actual screenshot -->
-
 ## 🚀 Key Features
 
 - **Dynamic Hero Section**: High-impact introduction with a professional summary.
