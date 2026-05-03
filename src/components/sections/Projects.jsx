@@ -9,7 +9,7 @@ const Projects = () => {
             title: 'Sāmwaad',
             description: 'Enterprise-grade real-time communication platform featuring AI-powered diarization, live translation, and Apple Intelligence integration for seamless collaborative workflows.',
             tech: ['Swift', 'SwiftUI', 'Pusher', 'Apple Intelligence', 'Hono', 'Prisma'],
-            github: 'https://github.com/AK-1612/Samwaad'
+            github: 'https://github.com/AK-6576/MIT_WPU-Group-4'
         },
         {
             title: 'Fleet Management System',
@@ -21,13 +21,13 @@ const Projects = () => {
             title: 'AI Travel Assistant',
             description: 'Intelligent itinerary planning engine that generates hyper-personalized travel experiences using LLMs and real-time flight/hotel data integration.',
             tech: ['React', 'Node.js', 'Google Gemini', 'OpenAI', 'TailwindCSS'],
-            github: 'https://github.com/AK-1612/AI-Travel-Assistant'
+            github: 'https://github.com/AK-1612/QuAnHack-Assignment'
         },
         {
             title: 'Aeron Utilities',
             description: 'Cross-platform system optimization suite for macOS and iOS, focused on performance monitoring, memory management, and automated maintenance.',
             tech: ['Swift', 'C++', 'SystemExtensions', 'Combine', 'Metal'],
-            github: 'https://github.com/AK-1612/Aeron-Utilities'
+            github: 'https://github.com/AK-1612/Aeron-Assignment'
         },
         {
             title: 'AI TraceFinder',
