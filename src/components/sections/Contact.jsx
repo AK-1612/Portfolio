@@ -32,13 +32,13 @@ const Contact = () => {
                     </p>
 
                     <div className="contact-links flex-col">
-                        <a href="mailto:anshulkumaria2004@gmail.com" className="contact-item group flex items-center">
+                        <a href="mailto:anshulkumaria1612@gmail.com" className="contact-item group flex items-center">
                             <div className="contact-icon-wrapper flex items-center justify-center">
                                 <Mail size={22} className="group-hover:text-accent" />
                             </div>
                             <div>
                                 <span className="contact-label">Email</span>
-                                <span className="contact-value">anshulkumaria2004@gmail.com</span>
+                                <span className="contact-value">anshulkumaria1612@gmail.com</span>
                             </div>
                         </a>
 
