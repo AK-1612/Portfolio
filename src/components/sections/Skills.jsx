@@ -8,32 +8,32 @@ const Skills = () => {
         {
             category: 'Languages',
             icon: <Terminal size={24} />,
-            items: ['Python', 'Swift', 'Java', 'C++', 'C', 'JavaScript']
+            items: ['Python', 'Swift', 'TypeScript', 'C++', 'Java', 'SQL']
         },
         {
             category: 'Machine Learning',
             icon: <Cpu size={24} />,
-            items: ['TensorFlow', 'Keras', 'Scikit-learn', 'CNN', 'SVM', 'Computer Vision', 'Data Preprocessing']
+            items: ['TensorFlow', 'PyTorch', 'Large Language Models (LLMs)', 'NLP', 'CNN', 'Computer Vision', 'CoreML']
         },
         {
             category: 'Backend',
             icon: <Database size={24} />,
-            items: ['Flask', 'Django', 'REST APIs', 'SQL']
+            items: ['Hono', 'Prisma', 'Node.js', 'Flask', 'PostgreSQL', 'Redis', 'Neon']
         },
         {
-            category: 'Frontend',
-            icon: <Layout size={24} />,
-            items: ['HTML', 'CSS', 'JavaScript', 'React']
-        },
-        {
-            category: 'Mobile',
+            category: 'iOS Development',
             icon: <Smartphone size={24} />,
-            items: ['Swift', 'UIKit', 'AVFoundation']
+            items: ['SwiftUI', 'UIKit', 'Combine', 'Apple Intelligence', 'AVFoundation', 'XCTest']
         },
         {
-            category: 'Tools & DB',
+            category: 'Frontend & UI',
+            icon: <Layout size={24} />,
+            items: ['React', 'Next.js', 'TailwindCSS', 'TypeScript', 'Framer Motion']
+        },
+        {
+            category: 'Infrastructure',
             icon: <Wrench size={24} />,
-            items: ['Git', 'Linux', 'Xcode', 'Jupyter', 'PostgreSQL', 'MySQL', 'SQLite']
+            items: ['Git', 'Docker', 'Linux', 'Xcode', 'Jupyter', 'Vercel', 'Pusher']
         }
     ];
 

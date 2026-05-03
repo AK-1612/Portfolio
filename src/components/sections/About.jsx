@@ -8,10 +8,10 @@ const About = () => {
             <div className="about-content grid">
                 <div className="about-text">
                     <p>
-                        Computer Science undergraduate with CGPA 9.1. Experience developing production-grade full stack systems, machine learning pipelines, and deployed AI applications.
+                        Computer Science undergraduate with a CGPA of 9.1, specializing in the intersection of Machine Learning, Cloud Architecture, and Native iOS development. I design and build production-ready systems that leverage advanced AI to solve real-world problems.
                     </p>
                     <p>
-                        Strong expertise in Python, TensorFlow, Flask, and Swift. Built real-world systems including CNN-based device identification, fraud detection systems, and full stack platforms.
+                        With deep expertise in Python, Swift, and modern backend frameworks like Hono and Prisma, I focus on creating high-performance applications with modular, scalable architectures. From CNN-based forensic tools to enterprise-grade logistics platforms, I bridge the gap between complex research and deployable software.
                     </p>
                     <div className="about-stats flex">
                         <div className="stat-item">
@@ -19,12 +19,12 @@ const About = () => {
                             <span className="stat-label">CGPA</span>
                         </div>
                         <div className="stat-item">
-                            <span className="stat-value">3+</span>
-                            <span className="stat-label">Domains<br />(ML, Web, iOS)</span>
+                            <span className="stat-value">4+</span>
+                            <span className="stat-label">Core<br />Domains</span>
                         </div>
                         <div className="stat-item">
-                            <span className="stat-value">5+</span>
-                            <span className="stat-label">Prod-Grade<br />Projects</span>
+                            <span className="stat-value">10+</span>
+                            <span className="stat-label">Production<br />Projects</span>
                         </div>
                     </div>
                 </div>

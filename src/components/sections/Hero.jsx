@@ -12,16 +12,16 @@ const Hero = () => {
                     </div>
 
                     <h1 className="hero-title">
-                        Machine Learning Engineer<br />
-                        <span className="hero-title-accent">Full-Stack & iOS</span>
+                        Architecting Intelligent<br />
+                        <span className="hero-title-accent">Systems & Experiences</span>
                     </h1>
 
                     <p className="hero-headline">
-                        Building intelligent, production-grade systems using Machine Learning and Full-Stack Engineering.
+                        Engineering production-grade solutions at the intersection of Machine Learning, Full-Stack Architecture, and Native iOS development.
                     </p>
 
                     <p className="hero-subheadline">
-                        Specializing in AI systems, deep learning, backend engineering, and native iOS development.
+                        Specializing in building scalable, AI-driven applications that bridge complex technical research with high-impact user experiences.
                     </p>
 
                     <div className="hero-actions flex">

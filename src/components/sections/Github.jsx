@@ -16,47 +16,58 @@ const GithubSection = () => {
                 setRepos([
                     {
                         id: 1,
-                        name: 'AI-TraceFinder',
-                        description: 'CNN and SVM-based identification of printer signatures.',
-                        language: 'Python',
-                        full_name: 'AK-1612/AI-TraceFinder',
-                        stargazers_count: 12,
-                        forks_count: 3,
-                        updated_at: '2024-03-15T10:00:00Z',
-                        color: '#3572A5'
+                        name: 'Samwaad',
+                        description: 'AI-powered real-time communication platform with diarization.',
+                        language: 'Swift',
+                        full_name: 'AK-1612/Samwaad',
+                        stargazers_count: 24,
+                        forks_count: 5,
+                        updated_at: '2024-05-01T10:00:00Z',
+                        color: '#F05138'
                     },
                     {
                         id: 2,
-                        name: 'credit-card-fraud-detection',
-                        description: 'Machine learning pipeline for anomaly detection in transactions.',
-                        language: 'Jupyter Notebook',
-                        full_name: 'AK-1612/credit-card-fraud-detection',
-                        stargazers_count: 8,
-                        forks_count: 2,
-                        updated_at: '2024-02-10T14:30:00Z',
-                        color: '#DA5B0B'
+                        name: 'FMS-FullStack',
+                        description: 'Enterprise fleet management system with iOS frontend.',
+                        language: 'Swift',
+                        full_name: 'AK-1612/FMS-FullStack',
+                        stargazers_count: 18,
+                        forks_count: 4,
+                        updated_at: '2024-04-28T14:30:00Z',
+                        color: '#F05138'
                     },
                     {
                         id: 3,
-                        name: 'Medi-Master',
-                        description: 'Medical record management and recommendation engine.',
-                        language: 'Python',
-                        full_name: 'AK-1612/Medi-Master',
-                        stargazers_count: 5,
-                        forks_count: 1,
-                        updated_at: '2023-11-25T08:15:00Z',
-                        color: '#3572A5'
+                        name: 'AI-Travel-Assistant',
+                        description: 'Intelligent travel itinerary generator using Gemini LLM.',
+                        language: 'JavaScript',
+                        full_name: 'AK-1612/AI-Travel-Assistant',
+                        stargazers_count: 15,
+                        forks_count: 3,
+                        updated_at: '2024-04-15T08:15:00Z',
+                        color: '#f1e05a'
                     },
                     {
                         id: 4,
-                        name: 'Swift-Music-Player',
-                        description: 'Native iOS audio playback application.',
+                        name: 'Aeron-Utilities',
+                        description: 'System optimization suite for macOS and iOS.',
                         language: 'Swift',
-                        full_name: 'AK-1612/Swift-Music-Player',
-                        stargazers_count: 4,
-                        forks_count: 0,
-                        updated_at: '2023-09-05T16:45:00Z',
+                        full_name: 'AK-1612/Aeron-Utilities',
+                        stargazers_count: 12,
+                        forks_count: 2,
+                        updated_at: '2024-03-20T16:45:00Z',
                         color: '#F05138'
+                    },
+                    {
+                        id: 5,
+                        name: 'AI-TraceFinder',
+                        description: 'CNN-based printer source identification system.',
+                        language: 'Python',
+                        full_name: 'AK-1612/AI-TraceFinder',
+                        stargazers_count: 10,
+                        forks_count: 1,
+                        updated_at: '2024-03-10T11:00:00Z',
+                        color: '#3572A5'
                     }
                 ]);
                 setLoading(false);

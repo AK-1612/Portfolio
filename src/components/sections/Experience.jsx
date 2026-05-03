@@ -8,22 +8,22 @@ const Experience = () => {
             id: 1,
             role: 'Full Stack Engineer Trainee',
             company: 'Softech IT Solution',
-            date: 'Recent',
-            description: 'Built production-grade school management platform leveraging Flask and SQL. Implemented comprehensive administrator dashboards and secure user authentication flows to orchestrate school data operations.'
+            date: 'Present',
+            description: 'Architecting production-grade enterprise platforms using Flask, Node.js, and relational database systems. Engineering comprehensive administrator dashboards and secure authentication layers to orchestrate complex data operations for educational institutions.'
         },
         {
             id: 2,
             role: 'Artificial Intelligence Intern',
             company: 'Infosys Springboard',
-            date: 'Previous',
-            description: 'Developed and trained CNN-based forensic identification machine learning system. Managed multi-stage data preprocessing and augmentation pipelines to improve inference accuracy across vast datasets.'
+            date: '2024',
+            description: 'Engineered and optimized CNN-based forensic identification systems. Developed high-performance data preprocessing pipelines and augmentation strategies, achieving significant improvements in inference accuracy across large-scale forensic datasets.'
         },
         {
             id: 3,
-            role: 'LLM Intern',
+            role: 'LLM Research Intern',
             company: 'Vodafone Idea Foundation',
-            date: 'Past',
-            description: 'Performed large-scale data analysis and scientific visualization using Python data ecosystems. Investigated and tested natural language models for telecommunications business insights.'
+            date: '2023',
+            description: 'Conducted large-scale data analysis and scientific visualization within the Python data ecosystem. Investigated natural language model architectures to derive actionable business insights for telecommunications infrastructure.'
         }
     ];
 

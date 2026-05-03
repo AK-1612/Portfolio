@@ -6,34 +6,34 @@ import './Projects.css';
 const Projects = () => {
     const projectsData = [
         {
+            title: 'Sāmwaad',
+            description: 'Enterprise-grade real-time communication platform featuring AI-powered diarization, live translation, and Apple Intelligence integration for seamless collaborative workflows.',
+            tech: ['Swift', 'SwiftUI', 'Pusher', 'Apple Intelligence', 'Hono', 'Prisma'],
+            github: 'https://github.com/AK-1612/Samwaad'
+        },
+        {
+            title: 'Fleet Management System',
+            description: 'Full-scale logistics and maintenance platform with real-time asset tracking, AI-driven inspection analysis, and a robust modular MVVM architecture.',
+            tech: ['iOS', 'SwiftUI', 'MVVM', 'PostgreSQL', 'Combine', 'Hono'],
+            github: 'https://github.com/AK-1612/FMS-FullStack'
+        },
+        {
+            title: 'AI Travel Assistant',
+            description: 'Intelligent itinerary planning engine that generates hyper-personalized travel experiences using LLMs and real-time flight/hotel data integration.',
+            tech: ['React', 'Node.js', 'Google Gemini', 'OpenAI', 'TailwindCSS'],
+            github: 'https://github.com/AK-1612/AI-Travel-Assistant'
+        },
+        {
+            title: 'Aeron Utilities',
+            description: 'Cross-platform system optimization suite for macOS and iOS, focused on performance monitoring, memory management, and automated maintenance.',
+            tech: ['Swift', 'C++', 'SystemExtensions', 'Combine', 'Metal'],
+            github: 'https://github.com/AK-1612/Aeron-Utilities'
+        },
+        {
             title: 'AI TraceFinder',
-            description: 'Machine learning system identifying printer/scanner source using CNN and SVM. Includes preprocessing pipeline, model training, and deployment.',
-            tech: ['Python', 'TensorFlow', 'Scikit-learn', 'CNN', 'SVM'],
+            description: 'Advanced forensic ML system identifying printer source signatures using CNN-SVM architectures and specialized image preprocessing pipelines.',
+            tech: ['Python', 'TensorFlow', 'OpenCV', 'Scikit-learn', 'PyTorch'],
             github: 'https://github.com/AK-1612/AI-TraceFinder'
-        },
-        {
-            title: 'Credit Card Fraud Detection',
-            description: 'Fraud detection ML pipeline utilizing Random Forest, XGBoost, and advanced preprocessing for high-accuracy anomaly detection.',
-            tech: ['Python', 'XGBoost', 'Random Forest', 'Scikit-learn'],
-            github: 'https://github.com/AK-1612/Machine-Learning-Projects.'
-        },
-        {
-            title: 'Medi-Master',
-            description: 'Full stack medical record and recommendation system built with robust relational databases and secure REST APIs.',
-            tech: ['Flask', 'Python', 'MySQL', 'HTML/CSS/JS'],
-            github: 'https://github.com/AK-1612/Medi-Master'
-        },
-        {
-            title: 'Voice Assistant (A.N.S.H.U.L.)',
-            description: 'Real-time speech recognition assistant automating complex desktop workflows leveraging Python speech libraries.',
-            tech: ['Python', 'SpeechRecognition', 'PyAudio', 'Automation'],
-            github: 'https://github.com/AK-1612/A.N.S.H.U.L.'
-        },
-        {
-            title: 'Swift Music Player',
-            description: 'Native iOS music player with high-performance audio playback, playlist management, and clean user interface.',
-            tech: ['Swift', 'UIKit', 'AVFoundation', 'iOS'],
-            github: 'https://github.com/AK-1612/Swift-Projects.'
         }
     ];
 
