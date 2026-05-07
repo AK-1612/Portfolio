@@ -44,7 +44,7 @@ const Hero = () => {
                     <div className="hero-image-container">
                         <div className="glow-orb"></div>
                         <img
-                            src="/profile.jpg"
+                            src="/profile.png"
                             alt="Anshul Kumaria"
                             className="hero-main-img"
                             onError={(e) => {

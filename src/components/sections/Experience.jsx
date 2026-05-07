@@ -6,24 +6,24 @@ const Experience = () => {
     const experiences = [
         {
             id: 1,
-            role: 'Full Stack Engineer Trainee',
-            company: 'Softech IT Solution',
-            date: 'Present',
-            description: 'Architecting production-grade enterprise platforms using Flask, Node.js, and relational database systems. Engineering comprehensive administrator dashboards and secure authentication layers to orchestrate complex data operations for educational institutions.'
+            role: 'iOS Intern',
+            company: 'Infosys',
+            date: '04/2026 – 05/2026',
+            description: 'Engineered a high-performance iOS frontend using SwiftUI, implementing a modern design system with glassmorphism, dynamic animations, and MVVM architecture. Architected and deployed a real-time communication system using Pusher, Hono (Node.js), and Prisma. Designed and implemented role-based access control and session management workflows.'
         },
         {
             id: 2,
             role: 'Artificial Intelligence Intern',
             company: 'Infosys Springboard',
-            date: '2024',
-            description: 'Engineered and optimized CNN-based forensic identification systems. Developed high-performance data preprocessing pipelines and augmentation strategies, achieving significant improvements in inference accuracy across large-scale forensic datasets.'
+            date: '11/2025 – 02/2026',
+            description: 'Developed an end-to-end machine learning system to identify scanner brands from scanned document images. Built a custom dataset, designed a preprocessing pipeline, and implemented SVM and CNN models achieving ~93–96% accuracy. Deployed the final CNN via a Streamlit-based interface.'
         },
         {
             id: 3,
-            role: 'LLM Research Intern',
-            company: 'Vodafone Idea Foundation',
-            date: '2023',
-            description: 'Conducted large-scale data analysis and scientific visualization within the Python data ecosystem. Investigated natural language model architectures to derive actionable business insights for telecommunications infrastructure.'
+            role: 'Full Stack Trainee',
+            company: 'Softech IT Solution',
+            date: '08/2025 – 11/2025',
+            description: 'Contributed to a production-grade School Management System built on Python-Flask. Developed staff profile management, attendance tracking, and financial analytics dashboards. Engineered attendance and grade management workflows with dynamic report card generation.'
         }
     ];
 
