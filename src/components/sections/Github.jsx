@@ -16,7 +16,7 @@ const GithubSection = () => {
                 setRepos([
                     {
                         id: 1,
-                        name: 'Travel-Reimbursement-Agent',
+                        name: 'Travel Reimbursement Agent',
                         description: 'Autonomous AI approval system using FastAPI, Streamlit, and Groq (Llama 3.3) for corporate travel claim evaluation.',
                         language: 'Python',
                         full_name: 'AK-1612/Travel-Reimbursement-Agent',
@@ -134,23 +134,25 @@ const GithubSection = () => {
                         <a key={repo.id} href={`https://github.com/${repo.full_name}`} target="_blank" rel="noreferrer" className="repo-card glass" style={{ animationDelay: `${idx * 0.1}s` }}>
                             <div className="repo-header flex items-center gap-2">
                                 <GithubIcon size={20} className="repo-icon" />
-                                <h3 className="repo-name">{repo.name}</h3>
+                                <h3 className="repo-name" title={repo.name}>{repo.name}</h3>
                             </div>
                             <p className="repo-desc">{repo.description}</p>
-                            <div className="repo-footer flex justify-between items-center">
-                                <div className="repo-stats flex gap-3">
-                                    <span className="flex items-center gap-1">
-                                        <Circle size={12} fill={repo.color} color={repo.color} /> {repo.language}
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <Star size={14} /> {repo.stargazers_count}
-                                    </span>
-                                    <span className="flex items-center gap-1">
-                                        <GitFork size={14} /> {repo.forks_count}
-                                    </span>
-                                </div>
-                                <div className="repo-date">
-                                    Updated {formatDate(repo.updated_at)}
+                            <div className="repo-footer">
+                                <div className="repo-footer-row">
+                                    <div className="repo-stats">
+                                        <span>
+                                            <Circle size={10} fill={repo.color} color={repo.color} /> {repo.language}
+                                        </span>
+                                        <span>
+                                            <Star size={13} /> {repo.stargazers_count}
+                                        </span>
+                                        <span>
+                                            <GitFork size={13} /> {repo.forks_count}
+                                        </span>
+                                    </div>
+                                    <div className="repo-date">
+                                        Updated {formatDate(repo.updated_at)}
+                                    </div>
                                 </div>
                             </div>
                         </a>
