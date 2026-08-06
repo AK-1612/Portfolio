@@ -6,24 +6,35 @@ const Experience = () => {
     const experiences = [
         {
             id: 1,
-            role: 'iOS Intern',
-            company: 'Infosys',
-            date: '04/2026 – 05/2026',
-            description: 'Engineered a high-performance iOS frontend using SwiftUI, implementing a modern design system with glassmorphism, dynamic animations, and MVVM architecture. Architected and deployed a real-time communication system using Pusher, Hono (Node.js), and Prisma. Designed and implemented role-based access control and session management workflows.'
+            role: 'Summer Intern - Gen AI',
+            company: 'EY (Ernst & Young Services Pvt. Ltd.)',
+            date: '07/2026 – Present',
+            location: 'Pune, India',
+            description: 'Developing enterprise AI solutions for consulting workflows, including LLM-powered automation and Microsoft PowerPoint integration. Contributing to multi-agent AI systems, enterprise workflow automation, and research across SAP-integrated business processes and Generative AI applications.'
         },
         {
             id: 2,
-            role: 'Artificial Intelligence Intern',
-            company: 'Infosys Springboard',
-            date: '11/2025 – 02/2026',
-            description: 'Developed an end-to-end machine learning system to identify scanner brands from scanned document images. Built a custom dataset, designed a preprocessing pipeline, and implemented SVM and CNN models achieving ~93–96% accuracy. Deployed the final CNN via a Streamlit-based interface.'
+            role: 'iOS Intern',
+            company: 'Infosys',
+            date: '04/2026 – 05/2026',
+            location: 'Mysuru, India',
+            description: 'Built a real-time communication system using Pusher, Hono (Node.js), and Prisma for multi-role messaging. Engineered a high-performance iOS frontend using SwiftUI, glassmorphism, dynamic animations, and MVVM architecture.'
         },
         {
             id: 3,
+            role: 'Artificial Intelligence Intern',
+            company: 'Infosys Springboard',
+            date: '11/2025 – 02/2026',
+            location: 'Pune, India',
+            description: 'Developed an end-to-end ML pipeline for scanner brand identification from scanned document images. Built custom preprocessing pipelines and trained SVM/CNN models, achieving ~93–96% classification accuracy.'
+        },
+        {
+            id: 4,
             role: 'Full Stack Trainee',
             company: 'Softech IT Solution',
             date: '08/2025 – 11/2025',
-            description: 'Contributed to a production-grade School Management System built on Python-Flask. Developed staff profile management, attendance tracking, and financial analytics dashboards. Engineered attendance and grade management workflows with dynamic report card generation.'
+            location: 'Pune, India',
+            description: 'Contributed to a production-grade School Management System built on Python-Flask. Developed staff profile management, attendance tracking, and financial analytics dashboards with dynamic report card generation.'
         }
     ];
 

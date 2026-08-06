@@ -8,14 +8,14 @@ const About = () => {
             <div className="about-content grid">
                 <div className="about-text">
                     <p>
-                        Computer Science undergraduate with a CGPA of 9.1, specializing in the intersection of Machine Learning, Cloud Architecture, and Native iOS development. I design and build production-ready systems that leverage advanced AI to solve real-world problems.
+                        Computer Science undergraduate at MIT World Peace University with a CGPA of 9.18, specializing in the intersection of Generative AI, Machine Learning, Cloud Architecture, and Native iOS development. I design and build production-ready systems that leverage advanced AI to solve enterprise problems.
                     </p>
                     <p>
-                        With deep expertise in Python, Swift, and modern backend frameworks like Hono and Prisma, I focus on creating high-performance applications with modular, scalable architectures. From CNN-based forensic tools to enterprise-grade logistics platforms, I bridge the gap between complex research and deployable software.
+                        With experience through internships at EY (Ernst & Young) and Infosys, I bring deep expertise across LLM applications, multi-agent automation systems, SwiftUI/ARKit iOS frontends, and backend engineering (FastAPI, Hono, Prisma, Flask).
                     </p>
                     <div className="about-stats flex">
                         <div className="stat-item">
-                            <span className="stat-value">9.1</span>
+                            <span className="stat-value">9.18</span>
                             <span className="stat-label">CGPA</span>
                         </div>
                         <div className="stat-item">

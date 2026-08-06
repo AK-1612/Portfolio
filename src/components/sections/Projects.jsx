@@ -6,32 +6,44 @@ import './Projects.css';
 const Projects = () => {
     const projectsData = [
         {
+            title: 'Travel Reimbursement Agent',
+            description: 'Autonomous AI approval system engineered using FastAPI, Streamlit, and Groq (Llama 3.3) to evaluate corporate travel claims against policy documents with custom tool-calling for receipt validation and structured JSON audit logs.',
+            tech: ['FastAPI', 'Streamlit', 'Groq', 'Llama 3.3', 'Python', 'JSON Schema'],
+            github: 'https://github.com/AK-1612/Travel-Reimbursement-Agent'
+        },
+        {
+            title: 'QuanView',
+            description: 'Immersive iOS application using SwiftUI, ARKit, and RealityKit to visualize quantum mechanics concepts through interactive augmented reality experiences, real-time 3D simulations, and spatial plane detection.',
+            tech: ['Swift', 'SwiftUI', 'ARKit', 'RealityKit', '3D Simulation'],
+            github: 'https://github.com/AK-1612/QuanView'
+        },
+        {
+            title: 'ItineraryAgent',
+            description: 'AI-powered backend workflow system converting conversational WhatsApp messages into structured travel itineraries with Google Gemini LLM workflows, Twilio APIs, and agency lead management.',
+            tech: ['Python', 'FastAPI', 'Google Gemini', 'Twilio API', 'WhatsApp'],
+            github: 'https://github.com/AK-1612/AITravels-Travel-Itinerary'
+        },
+        {
             title: 'Sāmwaad',
             description: 'Enterprise-grade real-time communication platform featuring AI-powered diarization, live translation, and Apple Intelligence integration for seamless collaborative workflows.',
             tech: ['Swift', 'SwiftUI', 'Pusher', 'Apple Intelligence', 'Hono', 'Prisma'],
             github: 'https://github.com/AK-6576/MIT_WPU-Group-4'
         },
         {
-            title: 'Fleet Management System',
-            description: 'Full-scale logistics and maintenance platform with real-time asset tracking, AI-driven inspection analysis, and a robust modular MVVM architecture.',
-            tech: ['iOS', 'SwiftUI', 'MVVM', 'PostgreSQL', 'Combine', 'Hono'],
-            github: 'https://github.com/AK-1612/FMS-FullStack'
+            title: 'CampusPilot AI',
+            description: 'Agentic AI-powered accessible campus navigation platform featuring LLM agents, QR indoor positioning, 5 disability profiles, and an offline-first PWA architecture.',
+            tech: ['TypeScript', 'React', 'LLM Agent', 'PWA', 'TailwindCSS'],
+            github: 'https://github.com/AK-1612/campuspilot-ai'
         },
         {
-            title: 'AI Travel Assistant',
-            description: 'Intelligent itinerary planning engine that generates hyper-personalized travel experiences using LLMs and real-time flight/hotel data integration.',
-            tech: ['React', 'Node.js', 'Google Gemini', 'OpenAI', 'TailwindCSS'],
-            github: 'https://github.com/AK-1612/QuAnHack-Assignment'
-        },
-        {
-            title: 'Aeron Utilities',
-            description: 'Cross-platform system optimization suite for macOS and iOS, focused on performance monitoring, memory management, and automated maintenance.',
-            tech: ['Swift', 'C++', 'SystemExtensions', 'Combine', 'Metal'],
-            github: 'https://github.com/AK-1612/Aeron-Assignment'
+            title: 'SmartAI CRM',
+            description: 'AI-powered Customer Relationship Management platform featuring sales pipelines, marketing automation, AI assistants, customer support ticketing, and workflow automation.',
+            tech: ['TypeScript', 'React', 'Node.js', 'PostgreSQL', 'TailwindCSS'],
+            github: 'https://github.com/AK-1612/SmartAI-CRM'
         },
         {
             title: 'AI TraceFinder',
-            description: 'Advanced forensic ML system identifying printer source signatures using CNN-SVM architectures and specialized image preprocessing pipelines.',
+            description: 'Advanced forensic ML system identifying scanner brand signatures using CNN-SVM architectures and specialized document image preprocessing pipelines.',
             tech: ['Python', 'TensorFlow', 'OpenCV', 'Scikit-learn', 'PyTorch'],
             github: 'https://github.com/AK-1612/AI-TraceFinder'
         }

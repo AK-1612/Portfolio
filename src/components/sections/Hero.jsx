@@ -17,11 +17,11 @@ const Hero = () => {
                     </h1>
 
                     <p className="hero-headline">
-                        Engineering production-grade solutions at the intersection of Machine Learning, Full-Stack Architecture, and Native iOS development.
+                        Engineering production-grade solutions at the intersection of Generative AI, LLM Automation, Full-Stack Architecture, and Native iOS development.
                     </p>
 
                     <p className="hero-subheadline">
-                        Specializing in building scalable, AI-driven applications that bridge complex technical research with high-impact user experiences.
+                        Building multi-agent AI systems, enterprise workflow automation, and immersive iOS applications that bridge cutting-edge research with high-impact user experiences.
                     </p>
 
                     <div className="hero-actions flex">
@@ -44,7 +44,7 @@ const Hero = () => {
                     <div className="hero-image-container">
                         <div className="glow-orb"></div>
                         <img
-                            src="/profile.png"
+                            src="/profile.jpg"
                             alt="Anshul Kumaria"
                             className="hero-main-img"
                             onError={(e) => {

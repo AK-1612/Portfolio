@@ -8,32 +8,32 @@ const Skills = () => {
         {
             category: 'Languages',
             icon: <Terminal size={24} />,
-            items: ['Python', 'Swift', 'TypeScript', 'C++', 'Java', 'SQL']
+            items: ['Python', 'Swift', 'C', 'C++', 'JavaScript', 'HTML5', 'CSS3', 'TypeScript', 'SQL']
         },
         {
-            category: 'Machine Learning',
+            category: 'Generative AI & ML',
             icon: <Cpu size={24} />,
-            items: ['TensorFlow', 'PyTorch', 'Large Language Models (LLMs)', 'NLP', 'CNN', 'Computer Vision', 'CoreML']
+            items: ['FastAPI', 'Groq (Llama 3.3)', 'Google Gemini', 'TensorFlow', 'Keras', 'Scikit-learn', 'CNNs', 'SVMs', 'Computer Vision']
         },
         {
-            category: 'Backend',
+            category: 'Backend & Cloud',
             icon: <Database size={24} />,
-            items: ['Hono', 'Prisma', 'Node.js', 'Flask', 'PostgreSQL', 'Redis', 'Neon']
+            items: ['Flask', 'Hono (Node.js)', 'SQLAlchemy', 'Prisma ORM', 'MySQL', 'PostgreSQL', 'SQLite', 'Firebase', 'Twilio API']
         },
         {
-            category: 'iOS Development',
+            category: 'iOS & Spatial Computing',
             icon: <Smartphone size={24} />,
-            items: ['SwiftUI', 'UIKit', 'Combine', 'Apple Intelligence', 'AVFoundation', 'XCTest']
+            items: ['SwiftUI', 'UIKit', 'ARKit', 'RealityKit', 'MVVM', 'Combine', 'Apple Intelligence', 'Xcode']
         },
         {
             category: 'Frontend & UI',
             icon: <Layout size={24} />,
-            items: ['React', 'Next.js', 'TailwindCSS', 'TypeScript', 'Framer Motion']
+            items: ['React', 'Next.js', 'TailwindCSS', 'Glassmorphism', 'Framer Motion', 'Streamlit', 'PWA']
         },
         {
-            category: 'Infrastructure',
+            category: 'Tools & Workflows',
             icon: <Wrench size={24} />,
-            items: ['Git', 'Docker', 'Linux', 'Xcode', 'Jupyter', 'Vercel', 'Pusher']
+            items: ['Git', 'Linux', 'Jira', 'Jupyter Notebook', 'Google Colab', 'Pusher', 'Agile Development']
         }
     ];
 
